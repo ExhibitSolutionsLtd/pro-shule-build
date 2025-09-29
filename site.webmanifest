@@ -1,0 +1,45 @@
+{
+  "name": "ProShule",
+  "short_name": "ProShule",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "id": "app.proshule.org",
+  "display": "fullscreen",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "description": "ProShule School Management System",
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "productivity"],
+  "dir": "ltr",
+  "lang": "en-US",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": []
+}
